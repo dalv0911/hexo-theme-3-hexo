@@ -11,23 +11,8 @@ blog_path: /
 link:
   theme: color # Link style, color: colored icon white: black and white icon
   items:
-    rss: /atom.xml
-    github: https://github.com/yelog
-    facebook: https://www.facebook.com/faker.tops
-    twitter:
-    linkedin:
-    instagram: https://www.facebook.com/faker.tops
-    reddit: https://www.reddit.com/user/yelog/
-    weibo: http://weibo.com/u/2307534817
-    jianshu: https://www.jianshu.com/u/ff56736de7cf
-    zhihu: https://www.zhihu.com/people/jaytp/activities
-    csdn:
-    oschina: https://my.oschina.net/yelog
-    juejin:
-    email: jaytp@qq.com
-    qq: 872336115
-    kugou: https://www.kugou.com/
-    neteasemusic: https://music.163.com/#/user/home?id=88151013
+    github: https://github.com/dalv0911
+    facebook: https://www.facebook.com/da0911
 
 ########## Multi-author mode ############
 author:
@@ -59,10 +44,6 @@ menu:
   friend: # 'Friend' button
     on: false # whether to show
   menus: # The other menus added are written under menus, as follows: dynamic menu 1, dynamic menu 2, dynamic menu 3
-    github:
-      on: false
-      url: https://github.com/yelog
-      type: 3  # jump type 3: open a new tab page
 
 # End of statement
 article_txt: 
@@ -114,7 +95,7 @@ article_list:
 # Article list background image
 article_bg_img:
   on: true # whether to open
-  src: https://i.loli.net/2019/07/22/5d3521411f3f169375.png
+  src: /img/left-menu-background.jpg
   opacity: 0.3 # background image transparency, range 0 to 1
 
 # List style
@@ -218,13 +199,13 @@ gentie:
 # NetEase cloud post does not support querying the number of comments for the time being, so when it is enabled, turn off the number of comments and comment_count: false above.
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
+  githubID: dalv0911
+  repo: dalv0911.github.io
   ClientID:
   ClientSecret:
-  adminUser: yelog
+  adminUser: dalv0911
   distractionFreeMode: true
-  language: zh-CN
+  language: vie
   perPage: 10
 # gitalk: Third-party chat plugin made with github issue
 # https://github.com/gitalk/gitalk
@@ -239,8 +220,8 @@ gitalk:
 
 
 gitment:
-  owner: yelog
-  repo: yelog.github.io
+  owner: dalv0911
+  repo: dalv0911.github.io
   client_id:
   client_secret:
 # gitment: Comment system via github issue
